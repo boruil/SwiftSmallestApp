@@ -12,6 +12,7 @@
 		A1E55AF11978F50C0037EC72 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1E55AEF1978F50C0037EC72 /* Main.storyboard */; };
 		A1E55AF31978F50C0037EC72 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1E55AF21978F50C0037EC72 /* Images.xcassets */; };
 		A1E55AFF1978F50C0037EC72 /* SwiftSmallestAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1E55AFE1978F50C0037EC72 /* SwiftSmallestAppTests.swift */; };
+		A1E55B0D1978FEF80037EC72 /* taiyuan-yongzuo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A1E55B0C1978FEF80037EC72 /* taiyuan-yongzuo.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +36,7 @@
 		A1E55AFD1978F50C0037EC72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A1E55AFE1978F50C0037EC72 /* SwiftSmallestAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftSmallestAppTests.swift; sourceTree = "<group>"; };
 		A1E55B091978FA3E0037EC72 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		A1E55B0C1978FEF80037EC72 /* taiyuan-yongzuo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "taiyuan-yongzuo.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +78,7 @@
 		A1E55AE81978F50C0037EC72 /* SwiftSmallestApp */ = {
 			isa = PBXGroup;
 			children = (
+				A1E55B0B1978FEF80037EC72 /* SmallestAppImage */,
 				A1E55AEB1978F50C0037EC72 /* AppDelegate.swift */,
 				A1E55AED1978F50C0037EC72 /* ViewController.swift */,
 				A1E55AEF1978F50C0037EC72 /* Main.storyboard */,
@@ -108,6 +111,15 @@
 				A1E55AFD1978F50C0037EC72 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A1E55B0B1978FEF80037EC72 /* SmallestAppImage */ = {
+			isa = PBXGroup;
+			children = (
+				A1E55B0C1978FEF80037EC72 /* taiyuan-yongzuo.jpg */,
+			);
+			name = SmallestAppImage;
+			path = SmallestApp;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -191,6 +203,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A1E55AF11978F50C0037EC72 /* Main.storyboard in Resources */,
+				A1E55B0D1978FEF80037EC72 /* taiyuan-yongzuo.jpg in Resources */,
 				A1E55AF31978F50C0037EC72 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

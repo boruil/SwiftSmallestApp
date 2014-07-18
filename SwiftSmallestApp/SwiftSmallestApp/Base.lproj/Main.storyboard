@@ -13,6 +13,7 @@
                         <viewControllerLayoutGuide type="bottom" id="fcZ-SA-7H3"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="nS2-tZ-SvH">
+                        <rect key="frame" x="0.0" y="0.0" width="480" height="480"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Taiyuan" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QP9-0s-eyg">
@@ -24,16 +25,35 @@
                                     <rect key="frame" x="54" y="39" width="154" height="74"/>
                                 </variation>
                             </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="taiyuan-yongzuo.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="pNk-Ck-TmW">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="30" y="116" width="260" height="247"/>
+                                </variation>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Temp" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gVD-Z5-gcY">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" name="GeezaPro" family="Geeza Pro" pointSize="43"/>
+                                <color key="textColor" cocoaTouchSystemColor="lightTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="83" y="371" width="154" height="74"/>
+                                </variation>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.030091776648219382" blue="0.021710240695509531" alpha="0.65000000000000002" colorSpace="calibratedRGB"/>
                         <variation key="default">
                             <mask key="subviews">
                                 <exclude reference="QP9-0s-eyg"/>
+                                <exclude reference="pNk-Ck-TmW"/>
+                                <exclude reference="gVD-Z5-gcY"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
                             <mask key="subviews">
                                 <include reference="QP9-0s-eyg"/>
+                                <include reference="pNk-Ck-TmW"/>
+                                <include reference="gVD-Z5-gcY"/>
                             </mask>
                         </variation>
                     </view>
@@ -43,4 +63,7 @@
             <point key="canvasLocation" x="123" y="130"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="taiyuan-yongzuo.jpg" width="768" height="1024"/>
+    </resources>
 </document>
