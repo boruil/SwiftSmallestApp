@@ -34,6 +34,7 @@
 		A1E55AF81978F50C0037EC72 /* SwiftSmallestAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftSmallestAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1E55AFD1978F50C0037EC72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A1E55AFE1978F50C0037EC72 /* SwiftSmallestAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftSmallestAppTests.swift; sourceTree = "<group>"; };
+		A1E55B091978FA3E0037EC72 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -236,6 +237,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				A1E55AF01978F50C0037EC72 /* Base */,
+				A1E55B091978FA3E0037EC72 /* en */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
