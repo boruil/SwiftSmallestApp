@@ -7,12 +7,18 @@
 //
 
 import UIKit
+import CoreLocation
 
 class ViewController: UIViewController {
-                            
+    let locationManager:CLLocationManager = CLLocationManager()
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        locationManager.desiredAccuracy = kCLLocationAccuracyBest
+        if(ios8()) {
+            locationManager.requestAlwaysAuthorization()
+        }
+        locationManager.startUpdatingLocation()
     }
 
     override func didReceiveMemoryWarning() {
